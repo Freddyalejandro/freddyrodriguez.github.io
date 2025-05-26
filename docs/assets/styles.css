@@ -98,8 +98,7 @@
       line-height: 1.6;
     }
     .about-section .signature {
-      font-family: Brush Script MT, Brush Script Std, cursive;
-
+      font-family: 'Great Vibes', cursive;
       color: #ffc107;
       font-size: 2.8em;
       margin-left: 300px;
@@ -421,18 +420,23 @@ footer {
 }
 
 .footer-name {
-  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-family: 'Great Vibes', cursive;
   font-size: 40px;
   color: #f4b400;
+  
 }
 
 hr {
-  width: 100px;
+  width: 500px;
   border: 1px solid #f4b400;
-  margin: 10px auto;
+  margin: 50px auto;
+  margin-top: -25px;
 }
 
-.footer-content p {
-  margin: 10px 0;
+.footer-contact p {
+  margin: 5px auto;
   font-size: 14px;
+}
+.footer-contact ion-icon{
+  margin-top: -100px;
 }
